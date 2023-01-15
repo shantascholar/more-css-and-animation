@@ -1,0 +1,21 @@
+paragraph, text er overflow control er css tag : .class name{overflow:hidden} .  Types of overflow in CSS are: 1.visible(default), 2. scroll,
+3.hidden, 4.auto.
+overflow element has two direction tag: overflow-x: and overflow-y. such: .classname{overflow-y:scroll}.
+overflow scroll use korle verticle and horizental scroll bar ase jekhane horizental(mane x axis scroll off korar full commnd :.class name
+{overflow:scroll overflow-x:hidden} )
+1 line er kono text na break korte tag: white-space:nowrap; 
+koyek line er text write korar space na thakle 1 line end korte chaile css tag:text-overflow:ellipsis; (text line er full na show kore .. show 
+korbe)
+full text(ellipsis er ccs use korle) show korte chaile html tag e tittle add kore sekhane full text add korte hoy: <p class="classname" 
+tittle="full text" text ><p/> 1 or 2 line er hote hoy tobe show korbe.
+
+
+transform element in css: .class name{transform:scale}, scale() css function defines a transformation that resizes an element, meaning 
+eta kichu ke zoom kore choto or boro korte pare. boro korte chaile 100% mane 1, 200% mane 2, 300% mane 3 etc. choto korte chaile .5 mane 1/2
+, .75 mane 3/4 char bhager 3 bhag.
+.class name{}{transform:rotate(90deg)} korle element rotate hobe. milesone2 transform element 7-3 vido or transform.html reference details er 
+jonno. translate() css function repositions an element in the horizontal or virtical exis. 2 or 2 er beshi transform element use korle commnd
+transform:scale(.79) and {transform:rotate(90deg)} por por write korle seser tiiiiiiiiiiiii execute hobe 1st er ti hobe na. er jonno commnd
+{transform:scale(.79) rotate(90deg)} ebhabe dile 2 dhoroner transform execute hobe.
+kono element ke position change korte hoile translate use korte hoy {transform:translate(50px)} or {transform:translate(50px,49px) korle position
+change korbe and 2nd 49px er karone kona koni position change korbe.
