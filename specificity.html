@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Priority cht !important is most priority, then id, then class, then inline css, then h3 tag which is declare in html body h1, then */
+        #third{
+            color: violet;
+        }
+        .fire{
+            color: rebeccapurple;
+        }
+        h1{
+            color: peru;
+            color: red !important; }
+            /* bang important (!important) */
+        h1{
+            color: violet;
+        }
+    </style>
+</head>
+<body>
+    <h1>My special Heading -1</h1>
+    <h1>My special Heading -2</h1>
+    <h1>My special Heading -3</h1>
+    <h1 style="color: red;"(it is callled inline css) class="fire" id="third">My special Heading -4</h1>
+</body>
+</html>

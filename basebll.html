@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform & transition als</title>
+    <style>
+         .field{
+            border: 1px solid;
+        }
+        .field:hover .basebat{
+            transform: rotate(-60deg);
+         transform-origin: top right;
+        } 
+        
+        .baseball{
+            width: 50px;
+            height: 50px;
+            /* make some round object wrote border radius half of the width & height:  */
+            border-radius: 25px;
+            background-color: red;
+            position: relative;
+            left:434px;
+            transition: transform 1s ease-out 0.2s;
+        }
+        .field:hover .baseball{
+            /* transform: translate(550px); */
+            transform: translate(679px, -222px);
+        }
+
+        .basebat{
+            transition: transform 0.2s ease-in;
+        }
+        img{
+            width: 400px;
+             height: 300px; 
+        } 
+    </style>
+</head>
+<body>
+    <div class="field">
+        <img  class="basebat"  src="other images/vecteezy_baseball-bat-png-illustration_8500002_52.png" alt="">
+        <div class="baseball"></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        @keyframes slider{
+             0%{
+                background-color: red;
+                left: 0;
+                top: 0;
+            }
+            25%{
+                top: 256px;
+                background-color: rebeccapurple;
+                transform: scale(.07);
+            }
+            50%{
+                top: -22px;
+                background-color: navy;
+                transform: scale(.5);
+            }
+            75%{
+                top: 256px;
+                background-color: rebeccapurple;
+                transform: scale(.07);
+            }
+
+            100%{
+                background-color: red;
+                left: 610px;
+                top: 0;
+            }
+             /* 0%{
+                background-color: red;
+                left: 0;
+                top: 0;
+            }
+            50%{
+                background-color: rebeccapurple;
+                top: 210px;
+            }
+            100%{
+                background-color: red;
+                left: 310px;
+                top: 0;
+            }
+            /* 0%{
+                background-color: red;
+                top: 0;
+            }
+            100%{
+                background-color: rebeccapurple;
+                top: 210px;
+            } */
+            /* from{
+                background-color: red;
+                left: 0;
+            } */
+            /* to{
+                background-color: rebeccapurple;
+                left: 310px;
+            }  */
+            /* from{
+                background-color: red;
+                left: 0;
+            }
+            to{
+                background-color: rebeccapurple;
+                left: 400px;
+            } */
+            /* from{
+                background-color: red;
+            }
+            to{
+                background-color: rebeccapurple;
+            } */
+            
+        }
+        .stage{
+            width: 700px;
+            height: 300px;
+            background-color: violet;
+        }
+         .baseball{ 
+            width: 90px;
+            height:90px;
+            border-radius: 50%;
+            background-color: rgb(177, 62, 62);
+            animation: slider 3s ease-in-out  0.3s infinite alternate ;
+            position: relative;
+            /*when to play : add animation play state */
+             animation-play-state: running; 
+        }
+        /* .baseball{
+            width: 90px;
+            height:90px;
+            border-radius: 50%;
+            background-color: rgb(177, 62, 62);
+            animation: slider 3s ease-in-out  0.3s 3  alternate ; */
+            /*when to play : add animation play state */
+            /* animation-play-state: running; */
+    </style>
+</head>
+<body>
+    <h1>Let's Explore Animation</h1>
+    <div class="stage">
+        <div class="baseball">
+
+        </div>
+    </div>
+</body>
+</html>
